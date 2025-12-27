@@ -1,0 +1,14 @@
+# 실행 파일
+*.exe
+
+# 컴파일 중간 파일
+*.obj
+*.ilk
+*.pdb
+
+# Visual Studio
+.vscode/
+.vs/
+
+# 기타
+*.log
