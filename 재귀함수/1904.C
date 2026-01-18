@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int f(int a,int b)
+void f(int a, int b)
 {
     if (a>b)
         return;
-    else if(a%2==1)
+    if(a%2==1)
         printf("%d ", a);
     f(a+1,b);
 }
